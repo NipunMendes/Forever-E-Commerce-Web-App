@@ -1,2 +1,2 @@
-# gameshop-app
+# Forever Clothing Store Web Application
  
