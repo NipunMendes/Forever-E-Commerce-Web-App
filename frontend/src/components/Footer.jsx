@@ -15,17 +15,17 @@ const Footer = () => {
         <div>
           <p className="text-xl font-medium mb-5">COMPANY</p>
           <ul className="flex flex-col gap-1 text-gray-600">
-            <li>Home</li>
-            <li>About</li>
-            <li>Delivery</li>
-            <li>Privacy Policy</li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/delivery">Delivery</a></li>
+            <li><a href="/privacy_policy">Privacy Policy</a></li>
           </ul>
         </div>
         <div>
           <p className="text-xl font-medium mb-5">GET IN TOUCH</p>
           <ul className="flex flex-col gap-1 text-gray-600">
             <li>+94-112-345-678</li>
-            <li>info@forever.com</li>
+            <li><a href="mailto:info@forever.com">info@forever.com</a></li>
           </ul>
         </div>
       </div>

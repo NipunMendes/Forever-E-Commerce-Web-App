@@ -78,8 +78,8 @@ const Product = () => {
       {/* -------------------Description & Reviews----------------------------- */}
       <div className='mt-20'>
         <div className='flex'>
-          <b className='border px-5 py-3 text-sm'>Description</b>
-          <p className='border px-5 py-3 text-sm'>Reviews (123)</p>
+          <b className='border px-5 py-3 text-sm cursor-pointer'>Description</b>
+          <p className='border px-5 py-3 text-sm cursor-pointer'>Reviews (123)</p>
         </div>
         <div className='flex flex-col gap-4 border px-6 py-6 text-sm text-gray-600'>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget sem ut lacus convallis convallis at at nisi. Vestibulum in purus eget eros malesuada feugiat.
